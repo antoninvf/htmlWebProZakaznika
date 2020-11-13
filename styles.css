@@ -24,6 +24,10 @@ li a {
     text-decoration: none;
 }
 
+li .mujepickytitle {
+
+}
+
 li a:hover {
     background-color: darkred;
 }
