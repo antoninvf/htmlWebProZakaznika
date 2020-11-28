@@ -56,6 +56,25 @@ strong {
     font-weight: bold;
 }
 
+.twl {
+    padding-top: 25%;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+.twlpart2 {
+    text-align: center;
+    padding-right: 3%;
+}
+
+.downarrow {
+    font-size: 400%;
+    position: absolute;
+    padding-top: 15%;
+    color:white;
+}
+
 li a {
     display: block;
     color: white;

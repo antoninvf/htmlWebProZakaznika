@@ -1,34 +1,45 @@
 .container {
-    text-align: center;
+    text-align: left;
     padding-top: 20%;
+    padding-left: 5%;
+}
+
+.special{
+    text-align: right;
+    padding-right: 5%;
+    padding-left: unset;
+}
+
+.special2 {
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 form {
-    text-align: left;
+    text-align: center;
     background-color: white;
     padding: 32px;
     border-radius: 2px;
     color: darkslategrey;
     display: inline-block;
+    font-weight: bold;
+    width: 536px;
 }
 
 .input-label {
-    display: inline-block;
-    width: 100px
+    text-align: center;
+    display: block;
+    padding-bottom: 4px;
 }
 
 input {
+    text-align: center;
     margin-top: 5px;
 }
 
 .button-container {
     text-align: center;
-}
-
-h2 {
-    margin: auto;
-    text-align: center;
-    padding-bottom: 10px;
 }
 
 .submit-button {
@@ -41,9 +52,27 @@ h2 {
     cursor: pointer;
 }
 
+.submit-button:hover {
+    background-color: #36b336;
+}
+
 input {
     padding: 10px 15px;
     border-radius: 3px;
-    border: 2px solid whitesmoke;
+    border: 1px solid dimgray;
     text-align: center;
+
+}
+
+div {
+    padding-bottom: 20px;
+}
+
+.zprava {
+    padding-bottom: 30px;
+    padding-right: 35px;
+    border: 1px solid dimgray;
+    resize: none;
+    text-align: start;
+    border-radius: 3px;
 }
