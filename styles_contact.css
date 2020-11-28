@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+    padding-top: 20%;
+}
+
+form {
+    text-align: left;
+    background-color: white;
+    padding: 32px;
+    border-radius: 2px;
+    color: darkslategrey;
+    display: inline-block;
+}
+
+.input-label {
+    display: inline-block;
+    width: 100px
+}
+
+input {
+    margin-top: 5px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.submit-button {
+    color:white;
+    font-size: 100%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 15px 60px;
+    background-color: limegreen;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 2px solid whitesmoke;
+    text-align: center;
+}
