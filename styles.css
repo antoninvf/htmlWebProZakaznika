@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #333;
     font-family: 'Roboto', sans-serif;
@@ -11,7 +15,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-
+    z-index: 10;
 }
 
 .navigationbar {
@@ -37,8 +41,9 @@ ul {
     float: left;
 }
 
-.floatright {
-    float: right;
+.spacer{
+    color:white;
+    cursor: default;
 }
 
 .logo {
@@ -68,12 +73,6 @@ strong {
     padding-right: 3%;
 }
 
-.downarrow {
-    font-size: 400%;
-    position: absolute;
-    padding-top: 15%;
-    color:white;
-}
 
 li a {
     display: block;
@@ -113,6 +112,11 @@ li a:hover {
     font-family: 'Raleway', sans-serif;
     padding-top: 250px;
     color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
 }
 
 .underwelcome {
@@ -121,4 +125,56 @@ li a:hover {
     font-family: 'Raleway', sans-serif;
     padding-top: 80px;
     color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.checkourtwt {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-top: 100px;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.downarrow {
+    font-size: 400%;
+    position: absolute;
+    padding-top: 3%;
+    color:white;
+    animation: fadein ease 1s;
+    text-decoration: none;
+}
+
+.fadeinanimate {
+    animation: fadein ease 1s;
+}
+
+.imgstyle {
+    animation: fadein ease 1s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+.welcome {
+    animation: fadein ease 1s;
+}
+
+.underwelcome {
+    animation: fadein ease 1s;
+}
+
+.checkourtwt {
+    animation: fadein ease 1s;
 }
