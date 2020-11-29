@@ -167,12 +167,22 @@ li a:hover {
     100%   { opacity: 1; }
 }
 
+@keyframes fadein-welcome {
+    0% { opacity: 0; padding-top: 200px;}
+    100%   { opacity: 1; padding-top: 250px;}
+}
+
+@keyframes fadein-underwelcome {
+    0% { opacity: 0; padding-top: 30px;}
+    100%   { opacity: 1; padding-top: 80px;}
+}
+
 .welcome {
-    animation: fadein ease 1s;
+    animation: fadein-welcome ease 1s;
 }
 
 .underwelcome {
-    animation: fadein ease 1s;
+    animation: fadein-underwelcome ease 1s;
 }
 
 .checkourtwt {
